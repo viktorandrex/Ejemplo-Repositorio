@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- HEAD  contiene información para el navegador o 
+            indexadores, configuración-->
+        <meta charset="UTF-8"> 
+        <meta name="descripcion" content="Mi primera página web con HTML5"> 
+        <meta name="keywords" content="Trainee, Codigo, HTML5, Primer, Perú">
+        <!-- 
+            charset: hallar codificación referencia a idiomas latinos
+            descripción: Desciprión de mi página web, aparece en el buscador
+            keywords: Palabras claves, utiles para los motores de busqueda
+            los meta keywords segun el algoritmo de google ya no es relevante
+            para SEO (Opengraph de facebook, TwitterCard de twitter,
+            schema.org)
+        -->
+        <title>Hola mundo - Código</title>
+        <!-- Tittle es etiqueta de cierre porque tendra contenido dentro -->
+    </head>
+    <body>
+        <header>
+            <h1>Título Principal</h1>
+            <!-- h1 se recomienda que solo sea 1-->
+        </header>
+        <nav>
+            <h2>Menú Principal</h2>
+            Blog | Artículos | Galería de Fotos
+        </nav>
+        <!-- nav para menu -->
+        <main>
+            <h2>Artículos Destacados</h2>     
+            <article>
+                <h3>El futuro de React</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <br><br>
+                    Aspernatur sint asperiores aliquam, velit fuga eius.
+                </p>
+            </article>
+            <article>
+                <h3>El futuro de Typescript</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam aperiam repudiandae alias, maiores id at eligendi aspernatur assumenda. Vel, odio.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consequuntur sequi necessitatibus nostrum earum, quia id officiis deserunt voluptate iure maiores modi? 
+                    <br> 
+                    Rerum laudantium autem sapiente laborum placeat dicta repellendus.
+                </p>
+            </article>
+            <!-- article indica que se pobdra un pequeño documento -->
+        </main>
+        <aside>
+            <section>
+                <h3>Artículos Populares</h3>
+                <ul>
+                    <li>El futuro de React</li>
+                    <li>Alguien se acuerda de Angular 1?</li>
+                    <li>Rinde aprender COBOL?</li>
+                </ul>
+                <!-- ul:unordered list -->
+                <!-- no son etiquetas semanticas, son estructurales -->
+            </section>
+            <!-- section: pueden repetirse n veces -->
+        </aside>
+        <!-- aside: permite poner contenido adicional al costado de la web  -->
+        
+        <footer>
+            <h2>Acerca de esta página</h2>
+            <p>
+                <mark>
+                    CodiGo 2021 - Derechos Reservados
+                </mark>
+                <!-- mark:marcador, en amarillo como plumon resaltador -->
+                <address>
+                    Parque Mexico S/N
+                </address>
+                <cite>
+                    Aprobado por SUNEDU, por decreto N° 2020-1001
+                </cite>
+                <!-- Cite: Cita de un libro o un articulo -->
+                <small>
+                    Página hecha con cariño por: Victor
+                </small>
+            </p>
+        </footer>
+    </body>
+</html>

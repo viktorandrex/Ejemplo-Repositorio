@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<body>
+    
+<form>
+    <label for="nombre">Ingresa tu nombre</label>
+    <input type="text" id="nombre" name="nombre">
+    <br>
+    <label for="apellido">Ingresa tu apellido</label>
+    <input type="text" id="apellido" name="apellido">
+    <br>
+    <label for="edad">Ingresa tu edad</label>
+    <input type="number" placeholder="Ingresa tu edad" min="1" max="100" id="edad" name="edad">
+    <br>
+    <label for="email">Ingresa tu email</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <label for="psw">Ingresa tu contraseña</label>
+    <input type="password" placeholder="contraseña de 6 digitos"  required id="psw" name="psw">
+    <br>
+    <label for="psw2">Ingresa nuevamente tu contraseña</label>
+    <input type="password"  placeholder="contraseña de 6 digitos"  required id="psw2" name="psw2">    
+    <br>
+    <br>
+    <label>Escoja documento</label>
+    <br>
+    <input type="radio" name="documento" value="d">DNI
+    <input type="radio" name="documento" value="p">PASAPORTE
+    <br>
+    <br>
+    <label>Escoja nacionalidad</label>
+    <br>
+    <input type="checkbox" id="peruana" name="peruana" value="pe">
+    <label for="peruana">Peruana</label>
+    <input type="checkbox" id="brasilenha" name="brasilenha" value="br">
+    <label for="brasilenha">Brasileña</label>
+    <input type="checkbox" id="chilena" name="chilena" value="ch">
+    <label for="chilena">Chilena</label>
+    <input type="checkbox" id="ecuatoriana" name="ecuatoriana" value="ec">
+    <label for="ecuatoriana">Ecuatoriana</label>
+    <input type="checkbox" id="colombiana" name="colombiana" value="co">
+    <label for="colombiana">Colombiana</label>
+
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>

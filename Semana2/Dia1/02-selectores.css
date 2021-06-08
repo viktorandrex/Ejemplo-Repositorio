@@ -1,0 +1,109 @@
+/* etiqueta */
+/* "," = y */
+article, h1{
+    background-color: deepskyblue;
+}
+/* va a referenciar a todos los hijos article que tenga section, pero en cualquier nivel */
+/* ' ' => dentro a cualquier nivel */
+section article{
+    border:4px solid salmon;
+}
+/* ">" afecta a los hijos que esten en un primer nivel*/
+/* si no le pongo signo afectara a todos los niveles dentro de ul */
+ul > li{
+    font-family: Arial, Helvetica, sans-serif;
+    color:lime;
+}
+
+nav > ul > ol > li{
+    color:mediumpurple;
+}
+
+/* .nombre_clase */
+.titulo{
+    color:red;
+    text-decoration: underline;
+}
+.noticia{
+    background-color: yellow;
+}
+.adicional{
+    font-family: Impact;
+}
+/* #nombre_id, es único, es el equivalente a un dni */
+/* en css es mejor usar class y para java scrip id*/
+#importante{
+    background-color: yellowgreen;
+    /* Solo utilicen !important en caso de mucha necesidad. Si le pones important anula el style directo. No es recomendable */
+    text-decoration: overline !important;
+}
+
+/* SEUDOCLASES, condicional o estado */
+/* de las etiquetas de tipo tr vas a escoger las impares*/
+/* odd = escoge los impares */
+/* nth-of-type=de ese tipo de selector */
+tr:nth-of-type(odd){
+ background-color: lightskyblue;   
+}
+/* hemos escogido los elementos de tipo tr pero pares even=pares */
+tr:nth-of-type(even){
+    background-color: lightgreen;   
+   }
+
+/* a los párrafos, pero que sean los primeros de su tipo dentro de una etiqueta */
+p:first-of-type{
+    color:maroon;
+    font-weight: bold;
+}
+
+/* los elementos li que esten en la posición 2 */
+/* selector:nth-of-type(numero) el número referente según los hermanos del mismo que tenga ej
+<li></li>
+<li></li>
+<li></li> <- 3! */
+
+ol > li:nth-of-type(2){
+    font-style: italic;
+    background-color: rebeccapurple;
+    color:white;
+}
+   
+table, tr, td, th{
+    border: 2px solid gray;    
+    border-collapse:collapse;
+    /* border-collapse retira la separacion entre celdas*/
+}
+
+/* nth-of-type(An) 
+de los n elementos que hay utiliza cada 3 */
+/*li:nth-of-type(3n){
+    color:tomato;
+    background-color: palegreen;
+}*/
+
+/* nth-of-type(An+B) */
+/*
+3*0+1=1
+3*1+1=4
+3*2+1=7
+*/
+li:nth-of-type(3n+1){
+    color:tomato;
+    background-color: palegreen;
+}
+footer li:hover{
+    text-decoration: underline;
+}
+
+#btn{
+    background-color:lightskyblue;
+    color:white;
+}
+/* hover, va a aplicar cuando el mouse este encima del elemento */
+#btn:hover{
+    /* pointer = a una manito */
+    cursor:pointer;
+    background-color: blue;
+}
+
+/* BEM - BLOCK ELEMENT MODIFIER */

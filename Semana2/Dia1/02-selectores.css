@@ -92,7 +92,7 @@ li:nth-of-type(3n+1){
     background-color: palegreen;
 }
 footer li:hover{
-    text-decoration: underline;
+    text-decorcdation: underline;
 }
 
 #btn{

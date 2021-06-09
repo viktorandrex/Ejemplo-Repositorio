@@ -1,0 +1,48 @@
+/* font-face permite utilizar una fuente externa de un archivo y
+funciona para poner un alias e indicar la ubicación de mi archivo de fuente */
+/* va al inicio para poder referenciarlo luego */
+@font-face{
+    font-family: 'Nanuk';/* alias */
+    src:url('./nanuk.otf') /* ubicacion */
+}
+
+.familia{
+    font-family: 'Nanuk', Arial, Helvetica, sans-serif;
+    /* tamaño de letra */
+    font-size: 40px;
+}
+/* Se puede poner varias fuentes */
+/* Si no encuentra la fuente, pasara a la siguiente */
+/* https://fonts.google.com/ */
+/* Fuentes de google */
+/* Cuando más ligera es la fuente, más rápido cargara la página web */
+/* adicional para pago y gratis*/
+/* https://www.fontsquirrel.com/ */
+/* se descarga y se sube a la web [download riffic from fontspring]*/
+/* https://www.fontspace.com/category/open */
+/* Descargar fuente [free download]*/
+/* descomprime otf o ttf o woff son extenciones de fuente */
+/* pegar la fuente en la carpeta de trabaj0 'Dknanuk-q6G6.otf' y si gustan cambiar el nombre a 'nanuk.otf' */
+
+/* Minificación es quitar los espacios */
+
+.google{
+    font-family: 'Open Sans', sans-serif;
+    /* el grosor de la fuente */
+    /* se pone el weight según el nombre del grosor externo para que reconosca*/
+    font-weight: bold; 
+}
+
+.fontstyle{
+    font-style: italic; /* oblicue */
+}
+.textindent{
+    text-indent: 20px; /* Sangria */
+}
+.wordspacing{
+    word-spacing: 25px;
+}
+.lineheight{
+    line-height: 50px;
+}
+

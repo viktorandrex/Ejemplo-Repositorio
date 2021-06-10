@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/*usar jcpicker*/
+body{
+    background-color: hsl(186,86%,17%);
+    font-family: 'Open Sans', sans-serif;
+    color: white;    
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    width: 100%;    
+}
+.imagen{
+    width: 500px;
+    /* siempre que modifiquen una imagen slo hacerlo en el ancho
+    porque el alto se mantiene */
+    /* margin: top right bottom left */
+    margin:0 auto;
+    padding: 40px;
+}
+p,h4,ul{
+    text-align: center;
+    padding: 20px 40px;
+}
+li{
+    list-style: none; /* Quita las viñetas puntos de la lista */
+    display: inline;
+}

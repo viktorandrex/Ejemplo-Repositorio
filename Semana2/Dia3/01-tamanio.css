@@ -1,0 +1,35 @@
+/* '*' este selector aplica para todos */
+/* el body representa al ancho del dispositivo */
+*{
+    border:1px solid red;
+}
+h1{
+    font-size: 30px;
+}
+main{
+    width: 800px;
+}
+.articulo1{
+    width: 300px;
+    height: 300px;
+    /* Son unidades estaticas porque son valores fijas y no se mueven */
+}
+.articulo2{
+    font-size: 18pt; 
+    width: 50%; /* Unidad relativa, hace referencia al padre contenedor */
+    /*pt: puntos unidad estatica heredadas de las imprentas, 
+    se encuentran en texto */
+    /* Unidades relativas son las que tienen una referencia */
+    /* Las unidades relativas por lo general son para el ancho */
+}
+
+.big{
+    border: 2px solid blue;
+    background-color: skyblue;
+    width: 100vw;
+    height: 100vh;
+    /*vw: Unidad de medida Viewport Width,
+    es todo el tamaño disponible que tiene el navegador,
+    el vs capta todo el espacio visible del navegador incluido los margin,
+    se puede usar para fondos de pantalla */
+}

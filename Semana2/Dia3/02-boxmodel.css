@@ -1,0 +1,32 @@
+*{
+    border:1px solid red;
+    /* RESET */
+    margin:0;
+    padding: 0px;
+    box-sizing:border-box;
+}
+h1{
+    
+    margin:0;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+
+    box-sizing:border-box;
+    /* Para border y padding */
+    /* box-sizing:border-box Ajusta elancho y alto incluyendo el borde y padding */
+    
+}
+/* display:block aplica para la mayoria de elementos, 
+los bloques se sobreponen uno encima de otro*/
+/* display:inline aplica para la mayoria de elementos, 
+los bloques se acomodan a continuacion si hay espacio*/
+span{
+    border: 1px solid gray;
+    background-color: lightgreen;
+    display: inline;
+    width: 600px;
+}
+/* Display:inline -> label, input, span */
+/* Display:Inline-block -> Nunca utilizar porque tiene un defecto 
+   deja un espacio asi le pongan margin=0 y ese espacio no se puede quitar */

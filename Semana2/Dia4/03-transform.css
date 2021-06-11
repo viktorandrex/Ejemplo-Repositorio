@@ -1,0 +1,30 @@
+.transformacion{
+    width: 20px;
+    height: 20px;
+    /*transform:scale(3);*/
+    /*transform: scaleX(5);
+    transform: scaleY(2);*/
+    transform: scale(5,2);
+    
+}
+.resaltar{
+    background-color:yellow;
+}
+
+.tortuga{
+    width: 500px;
+    height: 400px;
+    animation: roll 3s infinite;
+    /* revisar translate */
+    transform: skew(25deg,21deg) rotate(30deg) translate3d(300px,200px,100px);
+}
+
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

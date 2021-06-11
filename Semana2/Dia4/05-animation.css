@@ -1,0 +1,37 @@
+.animacion{
+    width: 500px;
+    height: 400px;
+    animation: miAnimacion 4s infinite;
+}
+
+@keyframes miAnimacion{
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: violet;
+    }
+    75%{
+        transform: scale(2);
+    }
+    100%{
+        display: inline;
+        background-color: red;
+    }
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    /*animation-iteration-count: infinite;*/
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

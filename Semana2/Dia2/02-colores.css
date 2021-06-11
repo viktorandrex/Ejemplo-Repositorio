@@ -28,5 +28,7 @@
     background-image:linear-gradient(skyblue,yellow) ;
     */
     /* Se puede tambien anteponer el tipo de degradado */
+    /* en el grado puedo ponerle "to right" o "to bottom"*/
     background-image: linear-gradient(245deg,skyblue,yellow);
+    
 }

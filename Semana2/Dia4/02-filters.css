@@ -1,0 +1,29 @@
+.image{
+    width: 400px;
+}
+.filtro{
+    filter:blur(3px) grayscale(1);
+    /*filter:grayscale(1);*/
+}
+.filtro:hover{
+    filter:none;
+    filter: brightness(3);
+}
+
+.filtro2{
+    filter:contrast(5) opacity(56%) invert(100);
+    /*filter:grayscale(1);*/
+}
+.filtro2:hover{
+    filter:none;
+    filter: brightness(3);
+}
+.filtro3{
+    filter:opacity(56%);
+    /*filter:grayscale(1);*/
+}
+.filtro3:hover{
+    border-radius: 50%;
+    filter: sepia(80%) contrast(1) hue-rotate(150deg);
+    ;
+}

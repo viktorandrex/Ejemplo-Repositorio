@@ -1,7 +1,7 @@
 .animacion{
     width: 500px;
     height: 400px;
-    animation: miAnimacion 4s infinite;
+    animation: miAnimacion 8s infinite;
 }
 
 @keyframes miAnimacion{

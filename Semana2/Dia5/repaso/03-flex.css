@@ -1,0 +1,35 @@
+*{
+
+}
+.contenedor-principal{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: fuchsia;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+p{
+color: white;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+background-color: yellow;
+color: black;
+}
+.elementos{
+    height: 100px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 20px;    
+    margin: 10px;
+}
+.grande{
+    flex-grow: 2;
+}
+.mediano{
+    flex-grow: 1;
+}
+.pequenho{
+    flex-grow: 0.2;
+}

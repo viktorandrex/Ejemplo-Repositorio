@@ -1,0 +1,67 @@
+*{
+    background-color: black;
+}
+.contenedor-fila{
+    display:flex;/* Forma de mostrar */
+    flex-direction:row; /* Por defecto flex ya tiene row */
+    flex-wrap: wrap; /* Si no hay espacio lo manda hacia abajo */
+}
+.contenedor-inline{
+    display:inline-block;
+}
+.contenido-fila{
+    height: 100px;
+    width: 100px;
+    margin:5px;
+    background-color: blue;
+}
+.contenedor-columna{
+    display:flex;
+    flex-direction:column;
+}
+.contenido-columna{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin:5px;
+    background-color: yellow;
+}
+
+.elemento-grande{
+    flex-grow: 3;
+    /* si es flex-grow: 2; del 100% lo divide al 50% */
+    /* si es flex-grow: 3; del 100% lo divide al 33.33% */
+}
+.elemento-pequenho{
+    flex-grow: 1;
+}
+
+.caja-principal{ 
+    /* en vez de float: left creo un dif principal como contenedor*/
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.caja-horizontal{
+    display:flex;
+    flex-direction: row;
+    /*float: left;*/ /*pone el elemento circulo a lado izquierdo */
+}
+.elemento-de-caja-horizontal{
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+    margin: 10px;
+}
+.caja-vertical{
+    display:flex;
+    flex-direction: column;
+}
+.elemento-de-caja-vertical{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 10px;
+}
